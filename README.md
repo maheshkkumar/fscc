@@ -1,6 +1,25 @@
-# Few-shot scene adaptive crowd counting using meta-learning
+# Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
 
-This is the PyTorch implementation of the code for [Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning](https://arxiv.org/abs/2002.00264) in WACV 2020.
+### Introduction
+This repository is contains the PyTorch implementation for "Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning" by Mahesh Kumar Krishna Reddy, Mohammad Hossain, Mrigank Rochan, and Yang Wang. If you make use of this code in your work, please cite the paper.
+
+[[Code](github.com/maheshkkumar/crowd_meta)] [[Paper](https://arxiv.org/abs/2002.00264)]
+
+```
+@inproceedings{reddy2020few,
+    author      =  {Reddy, Mahesh Kumar Krishna and Hossain, Mohammad and Rochan, Mrigank and Wang, Yang},
+    title       =  {Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning},
+    booktitle   =  {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    month       =  {March},
+    year        =  {2020}
+}
+```
+
+### Abstract
+
+![Problem Setup](image/introduction.png)
+
+We consider the problem of few-shot scene adaptive crowd counting. Given a target camera scene, our goal is to adapt a model to this specific scene with only a few labeled images of that scene. The solution to this problem has potential applications in numerous real-world scenarios, where we ideally like to deploy a crowd counting model specially adapted to a target camera. We accomplish this challenge by taking inspiration from the recently introduced learning-to-learn paradigm in the context of few-shot regime. In training, our method learns the model parameters in a way that facilitates the fast adaptation to the target scene. At test time, given a target scene with a small number of labeled data, our method quickly adapts to that scene with a few gradient updates to the learned parameters. Our extensive experimental results show that the proposed approach outperforms other alternatives in few-shot scene adaptive crowd counting. 
 
 ### Setup
 ```python
@@ -15,18 +34,6 @@ The details related to all the crowd counting datasets can be found in the follo
 
 ### Training
 You can train the network using `run.sh` and by customising the command line arguments in it.
-
-### References
-If you found our work helpful, please cite our work.
-```
-@inproceedings{reddy2020few,
-    author      =  {Reddy, Mahesh Kumar Krishna and Hossain, Mohammad and Rochan, Mrigank and Wang, Yang},
-    title       =  {Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning},
-    booktitle   =  {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
-    month       =  {March},
-    year        =  {2020}
-}
-```
 
 ### Acknowledgements
 We have borrowed code from the following repositories:
