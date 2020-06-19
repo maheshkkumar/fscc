@@ -7,13 +7,13 @@ This is the PyTorch implementation of the code for [Few-Shot Scene Adaptive Crow
 pip install -r requirements.txt
 ```
 
-### Dataset
+### Datasets
+The details related to all the crowd counting datasets can be found in the following links.
 1. [WorldExpo'10](http://www.ee.cuhk.edu.hk/~xgwang/expo.html)
 2. [Mall](https://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html)
 3. [UCSD](http://www.svcl.ucsd.edu/projects/peoplecnt/)
 
 ### Training
-
 You can train the network using `run.sh` and by customising the command line arguments in it.
 
 ### References
