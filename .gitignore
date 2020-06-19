@@ -112,3 +112,6 @@ dataset/
 # jupyter notebooks
 .ipynb_checkpoints/
 *.pyc
+
+# misc
+.DS_Store

@@ -5,16 +5,6 @@ This repository is contains the PyTorch implementation for "Few-Shot Scene Adapt
 
 [[Code](github.com/maheshkkumar/crowd_meta)] [[Paper](https://arxiv.org/abs/2002.00264)]
 
-```
-@inproceedings{reddy2020few,
-    author      =  {Reddy, Mahesh Kumar Krishna and Hossain, Mohammad and Rochan, Mrigank and Wang, Yang},
-    title       =  {Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning},
-    booktitle   =  {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
-    month       =  {March},
-    year        =  {2020}
-}
-```
-
 ### Abstract
 
 ![Problem Setup](image/introduction.png)
@@ -34,6 +24,17 @@ The details related to all the crowd counting datasets can be found in the follo
 
 ### Training
 You can train the network using `run.sh` and by customising the command line arguments in it.
+
+### Citation
+```
+@inproceedings{reddy2020few,
+    author      =  {Reddy, Mahesh Kumar Krishna and Hossain, Mohammad and Rochan, Mrigank and Wang, Yang},
+    title       =  {Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning},
+    booktitle   =  {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    month       =  {March},
+    year        =  {2020}
+}
+```
 
 ### Acknowledgements
 We have borrowed code from the following repositories:
