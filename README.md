@@ -24,7 +24,8 @@ The details related to all the crowd counting datasets can be found in the follo
 3. [UCSD](http://www.svcl.ucsd.edu/projects/peoplecnt/)
 
 ### Training
-The command line arguments for the `train.py` is as follows:
+
+First, to generate a pre-trained backbone CSRNet network, please refer to [CSRNet documentation](https://github.com/leeyeehoo/CSRNet-pytorch). Then, the command line arguments for the meta-learning `train.py` is as follows:
 ```python
 >> python train.py --help
 
