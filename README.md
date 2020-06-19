@@ -90,3 +90,7 @@ python train.py --dataset=<dataset_name> \
 We have borrowed code from the following repositories:
 1. https://github.com/leeyeehoo/CSRNet-pytorch
 2. https://github.com/katerakelly/pytorch-maml
+
+### License
+
+The project is licensed under MIT license (please refer to LICENSE.txt for more details).
