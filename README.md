@@ -1,6 +1,5 @@
 # Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
 
-### Introduction
 This repository contains the PyTorch implementation for "Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning" by [Mahesh Kumar Krishna Reddy](http://cs.umanitoba.ca/~kumarkm/), Mohammad Hossain, [Mrigank Rochan](http://cs.umanitoba.ca/~mrochan/), and [Yang Wang](http://cs.umanitoba.ca/~ywang/). If you make use of this code in your work, please cite the paper.
 
 [Code](https://github.com/maheshkkumar/crowd_meta) | [Paper](https://arxiv.org/abs/2002.00264)
