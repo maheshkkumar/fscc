@@ -82,8 +82,8 @@ class MetaLearner(object):
 
                 return replace_grad
 
-        if 'frontend' not in key:
-            hooks.append(value.register_hook(get_closure()))
+            if 'frontend' not in key:
+                hooks.append(value.register_hook(get_closure()))
 
         self.optimizer.zero_grad()
         loss.backward()
