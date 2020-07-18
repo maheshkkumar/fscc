@@ -14,7 +14,7 @@ class GetDataLoader(object):
     def get_data(self, task, batch_size=1, mode='train'):
         transform = transforms.Compose(
             [transforms.ToTensor(), transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
-        d_task = CustomDataset(task, dataset=task.dataset, transform=transform, mode=mode)
+        d_task = TrainDataset(task, dataset=task.dataset, transform=transform, mode=mode)
         dataloader = DataLoader(d_task, batch_size=batch_size, num_workers=10, pin_memory=True)
 
         return dataloader
